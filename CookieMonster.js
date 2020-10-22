@@ -25,7 +25,7 @@ CM.Sim = {};
 CM.Cache.AddQueue = function() {
 	CM.Cache.Queue = document.createElement('script');
 	CM.Cache.Queue.type = 'text/javascript';
-	CM.Cache.Queue.setAttribute('src', 'https://aktanusa.github.io/CookieMonster/queue/queue.js');
+	CM.Cache.Queue.setAttribute('src', 'https://rathardashing.github.io/Cookie-Masher2/queue/queue.js');
 	document.head.appendChild(CM.Cache.Queue);
 }
 
